@@ -6,7 +6,7 @@
 #### Contact Information: ####
 * Phone  +375295955760
 * E-mail        maryna.liapikhina@gmail.com
-* Linkedin 
+* Telegram @maryliapikhina
 * Gitgub https://github.com/MarynaLiapikhina
 ***
 #### About myself ####
