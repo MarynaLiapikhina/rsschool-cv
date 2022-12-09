@@ -1,4 +1,3 @@
-# rsschool-cv #
 ## Maryna Liapikhina ##
 ---
 ### Junior Frontend developer ###
