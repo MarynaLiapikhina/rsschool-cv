@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    line-height: 24px;
     min-height: 100vh;
     margin: 0; padding: 0;
     display: flex;
@@ -12,7 +13,7 @@ body {
 }
 
 header, main, footer {
-    border: 1px solid red;
+    border: 1px solid #829985;
 }
 
 header {
@@ -58,9 +59,33 @@ html {
 
 .section {
     width: 50%;
+
 }
 @media (max-width: 768px) {
 .section {
     width: 100%;
     }
 }
+footer {
+    border-color: #829985;
+    background-color: #829985;
+    color: white;
+
+}
+.profile-photo {
+    width: 100px;
+height: 150px;
+}
+
+.rss-logo{
+    width: 100px;
+    height: 50px;
+}
+.github-navlink {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+
