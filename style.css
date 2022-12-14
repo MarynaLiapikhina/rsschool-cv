@@ -5,6 +5,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 24px;
+    font-size: 1.5;
+    font-weight: 400;
     min-height: 100vh;
     margin: 0; padding: 0;
     display: flex;
@@ -73,8 +75,9 @@ footer {
 
 }
 .profile-photo {
-    width: 100px;
-height: 150px;
+    width: 150px;
+    height: 200px;
+    margin: 50px 0px 0px 0px;
 }
 
 .rss-logo{
@@ -87,5 +90,9 @@ height: 150px;
     padding: 0 20px;
     line-height: 50px;
     transition: .3s;
+}
+.section-profile-title {
+    padding: 0px 150px
+
 }
 
