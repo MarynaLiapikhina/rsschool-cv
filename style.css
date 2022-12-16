@@ -1,7 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    color: blue;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-size: 1.5;
+    font-weight: 350;
+    min-height: 100vh;
+    margin: 0; padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #829985;
+    }
+
+.container {
+    max-width: 1440px;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    min-height: 50px;
+    
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+}
+
+a {
+    text-decoration: none;
+    color:#829985;
 }
 
 h2 {
-    color: black;
+    color: #829985;
+    font-weight: 300;
+}
+
+span {
+    color: #829985;
+}
+
+.section-item a {
+    color: #829985;
+    text-decoration: none;  
+    transition: color 0.5s;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section {
+    width: calc(50% - 20px);
+    padding: 10px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid gray;
+    
+}
+
+@media (max-width: 768px) {
+.section {
+    width: 100%;
+    }
+}
+
+footer {
+    border-color: #829985;
+    background-color: #829985;
+    color: white;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 200px;
+    margin: 0px;
+}
+
+.rss-logo{
+    width: 80px;
+    height: 30px;
+    margin: 10px 0 0 0;   
+}
+
+.github-navlink {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+.section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;  
+    text-transform: uppercase;
+    color: #829985;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px 35px;
+    border-bottom: 15px solid #d7d1c9;
+}
+
+.section-courses,
+.section-english {
+    border-bottom: 0;
+}
+
+section {
+    display: block;
 }
