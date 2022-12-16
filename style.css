@@ -51,6 +51,19 @@ html {
     transition: .3s;
 }
 
+a {
+    text-decoration: none;
+    color:#829985;
+}
+
+h2 {
+    color: #829985;
+    font-weight: 300;
+}
+span {
+    color: #829985;
+}
+
 .section-item a {
     color: #829985;
     text-decoration: none;  
@@ -142,4 +155,8 @@ footer {
 
 section {
     display: block;
+}
+pre {
+    border: red, solid, 1px;
+    
 }
