@@ -14,9 +14,6 @@ body {
     justify-content: space-between;
 }
 
-
-
-
 header {
     background-color: #829985;
     }
@@ -60,6 +57,7 @@ h2 {
     color: #829985;
     font-weight: 300;
 }
+
 span {
     color: #829985;
 }
@@ -84,23 +82,22 @@ span {
     
 }
 
-
 @media (max-width: 768px) {
 .section {
     width: 100%;
     }
 }
+
 footer {
     border-color: #829985;
     background-color: #829985;
     color: white;
-
 }
+
 .profile-photo {
     width: 150px;
     height: 200px;
     margin: 0px;
-
 }
 
 .rss-logo{
@@ -109,7 +106,6 @@ footer {
     margin: 10px 0 0 0;   
 }
 
-
 .github-navlink {
     color: white;
     text-decoration: none;
@@ -117,6 +113,7 @@ footer {
     line-height: 50px;
     transition: .3s;
 }
+
 .section-profile-title {
     display: flex;
     flex-direction: column;
@@ -146,17 +143,11 @@ footer {
     border-bottom: 15px solid #d7d1c9;
 }
 
-
 .section-courses,
 .section-english {
     border-bottom: 0;
 }
 
-
 section {
     display: block;
-}
-pre {
-    border: red, solid, 1px;
-    
 }
